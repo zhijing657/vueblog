@@ -1124,15 +1124,20 @@
     valine "^1.4.14"
     vssue "^1.4.6"
 
+"@vuepress-reco/vuepress-plugin-kan-ban-niang@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-kan-ban-niang/-/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
+  integrity sha512-ufqpOw0zhLxv3PvoYlHTsjmG4CFiCaQ8dnf950Ov7JmajKgpAMarZ3ObB+xi5ex0sgetxU82YSf+CptQceXQIw==
+
 "@vuepress-reco/vuepress-plugin-loading-page@^1.4.0":
   version "1.4.0"
   resolved "http://r.npm.sankuai.com/@vuepress-reco/vuepress-plugin-loading-page/download/@vuepress-reco/vuepress-plugin-loading-page-1.4.0.tgz#317202c9ef78825b3016c580a12791fc6e282511"
   integrity sha1-MXICye94glswFsWAoSeR/G4oJRE=
 
-"@vuepress-reco/vuepress-plugin-pagation@^1.4.6":
-  version "1.4.6"
-  resolved "http://r.npm.sankuai.com/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.4.6.tgz#011dc333dae10a6f2f133b0b20aa81923e71d6d1"
-  integrity sha1-AR3DM9rhCm8vEzsLIKqBkj5x1tE=
+"@vuepress-reco/vuepress-plugin-pagation@^1.4.7":
+  version "1.6.13"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-pagation/-/vuepress-plugin-pagation-1.6.13.tgz#d6f388d64a552d8ba95a7a9bfa7d307a63bb6718"
+  integrity sha512-6XPFCYFdMPao769TBA5lX0vAuzZsG/SlvxiioSxr0EDMCqEvvGaLq9/esJS8EyZ214byySIqRBoev55WOZlEyg==
 
 "@vuepress/core@1.5.0":
   version "1.5.0"
@@ -2401,6 +2406,11 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+colors@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmmirror.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
+  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
 colour@~0.7.1:
   version "0.7.1"
@@ -5138,9 +5148,9 @@ lru-cache@^5.1.1:
     yallist "^3.0.2"
 
 luxon@^1.3.3:
-  version "1.24.1"
-  resolved "http://r.npm.sankuai.com/luxon/download/luxon-1.24.1.tgz#a8383266131ed4eaed4b5f430f96f3695403a52a"
-  integrity sha1-qDgyZhMe1OrtS19DD5bzaVQDpSo=
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.28.1.tgz#528cdf3624a54506d710290a2341aa8e6e6c61b0"
+  integrity sha512-gYHAa180mKrNIUJCbwpmD0aTu9kV0dREDrwNnuyFAsO1Wt0EVYSZelPnJlbj9HplzXX/YWXHFTL45kvZ53M0pw==
 
 make-dir@^2.0.0:
   version "2.1.0"
@@ -8149,6 +8159,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-auto-sidebar@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-auto-sidebar/-/vuepress-plugin-auto-sidebar-1.5.0.tgz#fc11b32f5e7976394bab01edd68cd602b1c0cefe"
+  integrity sha512-PsF+XRWBZw+xbh/4IzTw6VbM4PoMhEMemHgK+c1Lmf7+9Fq3FK/iB4/P6Bp3VmlY+GenJ95MtwKK0BRjuK4RCQ==
+  dependencies:
+    colors "^1.4.0"
+
 vuepress-plugin-container@^2.0.2:
   version "2.1.4"
   resolved "http://r.npm.sankuai.com/vuepress-plugin-container/download/vuepress-plugin-container-2.1.4.tgz#bd586587ffb303f847e4a6a2e2568171f311493b"
@@ -8184,6 +8201,13 @@ vuepress-plugin-mailchimp@^1.4.1:
     jsonp "^0.2.1"
     query-string "^6.9.0"
 
+vuepress-plugin-medium-zoom@^1.1.8:
+  version "1.1.9"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-medium-zoom/-/vuepress-plugin-medium-zoom-1.1.9.tgz#d0e77cca52a2e1c4a4ab94ecc35f3377f834fd92"
+  integrity sha512-kmHdTkoHez7zB8r1EE0ySLQnnf7Cpdie3LPI2h7FwKbvK+DKSGOsJ9WAVLWZ1WInzv+LppGz94f8l76B+nOThA==
+  dependencies:
+    medium-zoom "^1.0.4"
+
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
   resolved "http://r.npm.sankuai.com/vuepress-plugin-sitemap/download/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"
@@ -8198,15 +8222,15 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-theme-reco@1.4.6:
-  version "1.4.6"
-  resolved "http://r.npm.sankuai.com/vuepress-theme-reco/download/vuepress-theme-reco-1.4.6.tgz#4753d670cf8ef01660369688725c5e71564518d3"
-  integrity sha1-R1PWcM+O8BZgNpaIclxecVZFGNM=
+vuepress-theme-reco@1.5.3:
+  version "1.5.3"
+  resolved "https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-1.5.3.tgz#937d7abcfd06c3caafef60198d9999da72d07377"
+  integrity sha512-kNsLvyuX+nkD/8sbbDBFHU5XKJlf8dz//HRZT1JALn047zliMwTe1wfsdmKseH9HQggyxD4kvcdPtruB2ezRdg==
   dependencies:
     "@vuepress-reco/vuepress-plugin-back-to-top" "^1.4.0"
     "@vuepress-reco/vuepress-plugin-comments" "^1.4.6"
     "@vuepress-reco/vuepress-plugin-loading-page" "^1.4.0"
-    "@vuepress-reco/vuepress-plugin-pagation" "^1.4.6"
+    "@vuepress-reco/vuepress-plugin-pagation" "^1.4.7"
     "@vuepress/plugin-blog" "1.9.2"
     "@vuepress/plugin-medium-zoom" "1.5.0"
     docsearch.js "2.6.3"
